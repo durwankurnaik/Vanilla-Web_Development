@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aligning HTML using CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'JetBrains Mono', monospace;
+        }
+        .container {
+            width: 75%;
+            margin: auto;
+            margin-top: 25px;
+            border: 2px solid black;
+            background-color: #be8abe;
+        }
+        .items {
+            border: 2px solid black;
+            padding: 10px;
+            margin: 10px;
+            background-color: #e5c9e5;
+        }
+        #monitors {
+            float: left;
+            width: 48%;
+        }
+        #harddrives {
+            float: right;
+            width: 48%;
+        }
+        #keyboards {
+            clear: both;
+        }
+        #title {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 id="title">Welcome to my website</h1>
+        <div id="monitors" class="items">
+            <h3>Monitors</h3>
+            <p id="monitorsPara" class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem deserunt quibusdam ducimus architecto adipisci officiis, optio quisquam rerum, sunt in magnam corporis. Numquam, qui. Facilis veniam ad similique ipsum aliquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, iusto blanditiis cum, nemo quidem itaque modi assumenda odit voluptatibus adipisci eius vitae nulla, vero rem alias neque quam. Cupiditate distinctio exercitationem in odio, eius, nostrum praesentium quo explicabo ab corrupti, sed error non magni voluptatum quos ut earum quasi facilis.</p>
+        </div>
+        <div id="harddrives" class="items">
+            <h3>HardDrives</h3>
+            <p id="harddrivePara" class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem deserunt quibusdam ducimus architecto adipisci officiis, optio quisquam rerum, sunt in magnam corporis. Numquam, qui. Facilis veniam ad similique ipsum aliquam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, quia voluptas incidunt distinctio rerum assumenda vel facilis! Hic facere error sapiente quia pariatur eos quo unde laborum, harum natus quos nostrum omnis, a nulla quaerat. Veniam eligendi nostrum, eum voluptatum earum totam quaerat, voluptatibus, quod reiciendis natus qui? Quidem, a!</p>
+        </div>
+        <div id="keyboards" class="items">
+            <h3>Keyboards</h3>
+            <p id="keyboardPara" class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem deserunt quibusdam ducimus architecto adipisci officiis, optio quisquam rerum, sunt in magnam corporis. Numquam, qui. Facilis veniam ad similique ipsum aliquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, itaque blanditiis necessitatibus dolores et, eos veniam accusamus fugit provident, beatae vero ipsum. Impedit deserunt culpa omnis tempora ea consequuntur, assumenda in odio alias delectus vero sunt beatae nesciunt, neque voluptas saepe, sit inventore tempore modi perspiciatis maiores ex. At, optio.</p>
+        </div>
+        <div id="sandwich" class="items">
+            <h3>Sandwich</h3>
+            <p id="sandwichPara" class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem deserunt quibusdam ducimus architecto adipisci officiis, optio quisquam rerum, sunt in magnam corporis. Numquam, qui. Facilis veniam ad similique ipsum aliquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, itaque blanditiis necessitatibus dolores et, eos veniam accusamus fugit provident, beatae vero ipsum. Impedit deserunt culpa omnis tempora ea consequuntur, assumenda in odio alias delectus vero sunt beatae nesciunt, neque voluptas saepe, sit inventore tempore modi perspiciatis maiores ex. At, optio.</p>
+        </div>
+        <div id="burger" class="items">
+            <h3>Burger</h3>
+            <p id="burgerPara" class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem deserunt quibusdam ducimus architecto adipisci officiis, optio quisquam rerum, sunt in magnam corporis. Numquam, qui. Facilis veniam ad similique ipsum aliquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, itaque blanditiis necessitatibus dolores et, eos veniam accusamus fugit provident, beatae vero ipsum. Impedit deserunt culpa omnis tempora ea consequuntur, assumenda in odio alias delectus vero sunt beatae nesciunt, neque voluptas saepe, sit inventore tempore modi perspiciatis maiores ex. At, optio.</p>
+        </div>
+    </div>
+</body>
+</html>

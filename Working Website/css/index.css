@@ -1,0 +1,71 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 20px;
+}
+.navbar {
+    border: 2 px solid black;
+    background-color: rgb(152, 65, 223);
+    padding: 10px;
+}
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.mid {
+    display: block;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    color: black;
+}
+.right {
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.mid li {
+    display: inline-block;
+}
+.mid a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+.right a {
+    padding: 5px;
+}
+.right li {
+    list-style: none;
+    display: inline-block;
+}
+.socials {
+    height: 30px;
+    width: 30px;
+    padding: auto;
+    top: auto;
+}
+#startingImg {
+    height: 895px;
+    width: 100%;
+}
+.mid li a:hover {
+    background-color: rgb(108, 4, 177);
+}
+
+
+/* The main body CSS */
+#mainBody {
+    margin: 10px;
+    padding-top: 25px;
+    text-align: center;
+    border: 2px solid black;
+    height: 1000px;
+}
