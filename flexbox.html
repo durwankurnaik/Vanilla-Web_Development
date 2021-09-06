@@ -11,11 +11,35 @@
             margin: 0px;
             box-sizing: border-box;
         }
+        .container {
+            display: flex;
+            border: 2px solid black;
+            margin: 5px;
+            padding: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+            height: 600px;
+            align-items: center;
+        }
+        .box {
+            border: 2px solid black;
+            padding: 5px;
+            margin: 5px 50px;
+            width: 500px;
+            height: 200px;
+            border: 2px solid violet;
+            background-color: antiquewhite;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h2>Art Selling</h2>
+        <div class="box" id="box1">First box</div>
+        <div class="box" id="box2">Second box</div>
+        <!-- <div class="box" id="box3">Third box</div>
+        <div class="box" id="box4">Fourth box</div>
+        <div class="box" id="box5">Fifth box</div>
+        <div class="box" id="box6">Sixth box</div> -->
     </div>
 </body>
 </html>
