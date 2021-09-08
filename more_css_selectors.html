@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advances about CSS selectors</title>
+    <style>
+        .container {
+            border: 2px solid saddlebrown;
+        }
+        div{
+            background-color: cornflowerblue;
+        }
+        input {
+            display: block;
+            margin: 5px 0px;
+        }
+        input[type="text"] {
+            border: 2px dotted black;
+        }
+        input[type="password"] {
+            border: 2px solid purple;
+        }
+        input[type="email"] {
+            border: hidden;
+        }
+        input[type="file"] {
+            background-color: blue;
+            color: whitesmoke;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Mai yaha pe CSS selectors ke baare me bakchodi karne jaane wala huu</h2>
+        <div class="box">
+            <p>This is first level para</p>
+        </div>
+        <a href=""></a>
+        <p>This is second level para</p>
+
+        <form action="">
+            <input type="text" placeholder="Enter your name here.">
+            <input type="password" placeholder="Enter your password here.">
+            <input type="email" placeholder="Enter your email here.">
+            Choose your files below.<input type="file">
+        </form>
+    </div>
+</body>
+</html>

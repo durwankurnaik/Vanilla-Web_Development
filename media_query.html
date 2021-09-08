@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What are media queries?</title>
+</head>
+<style>
+    .box {
+        display: none;
+        font-size: 25px;
+        text-align: center;
+        border: 2px solid blueviolet;
+    }
+    @media only screen and (max-width:1000px) {
+        #box1 {
+            display: block;
+            background-color: aqua;
+            color: black;
+        }
+    }
+    @media only screen and (min-width:1000px) {
+        #box2 {
+            display: block;
+            background-color: purple;
+            color: black;
+        }
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="box" id="box1">Phone</div>
+        <div class="box" id="box2">PC</div>
+    </div>
+</body>
+</html>
