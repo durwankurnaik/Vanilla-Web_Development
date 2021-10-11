@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frames and Animations in CSS</title>
+    <style>
+        .container {
+            background-color: aqua;
+        }
+        .box {
+            background-color: bisque;
+            width: 100px;
+            height: 25px;
+            padding: 10px;
+            position: relative;
+            animation-name: boxMoving;
+            /* animation-name: firstAnimation; */
+            animation-duration: 5s;
+            animation-timing-function: ease-in;
+            /* animation shorthand has a syntax like */
+            /* animation: animation-name animation-duration animation-timing-function animation-delay animation-iteration-count animation-fill-mode */
+        }
+        @keyframes boxMoving {
+            0% {
+                top: 0px;
+                left: 0px;
+            }
+            25% {
+                top: 500px;
+                left: 0px;
+            }
+            50% {
+                top: 500px;
+                left: 500px;
+            }
+            75% {
+                top: 0px;
+                left: 500px;
+            }
+            100% {
+                top: 0px;
+                left: 0px;
+            }
+        }
+        @keyframes firstAnimation {
+            from {
+                width: 100px;
+            }
+            to {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            This is a Box
+        </div>
+    </div>
+</body>
+</html>
